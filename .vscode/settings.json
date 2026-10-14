@@ -1,0 +1,41 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "wedding-content\\.json$",
+        "cmd": "json-minify \"${file}\" > \"${fileDirname}\\wedding-content.min.json\""
+      },
+      {
+        "match": "loader\\.js$",
+        "cmd": "terser \"${file}\" -o \"${fileDirname}\\min\\loader.min.js\" -c -m"
+      },
+      {
+        "match": "animation\\.js$",
+        "cmd": "terser \"${file}\" -o \"${fileDirname}\\min\\animation.min.js\" -c -m"
+      },
+      {
+        "match": "content\\.js$",
+        "cmd": "terser \"${file}\" -o \"${fileDirname}\\min\\content.min.js\" -c -m"
+      },
+      {
+        "match": "script\\.js$",
+        "cmd": "terser \"${file}\" -o \"${fileDirname}\\min\\script.min.js\" -c -m"
+      },
+      {
+        "match": "listener\\.js$",
+        "cmd": "terser \"${file}\" -o \"${fileDirname}\\min\\listener.min.js\" -c -m"
+      },
+      {
+        "match": "style\\.css$",
+        "cmd": "cleancss -o \"${fileDirname}\\style.min.css\" \"${file}\""
+      },
+      {
+        "match": "fonts\\.css$",
+        "cmd": "cleancss -o \"${fileDirname}\\fonts.min.css\" \"${file}\""
+      }
+    ]
+  }
+}

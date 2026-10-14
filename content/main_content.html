@@ -1,0 +1,714 @@
+<!-- Hero -->
+<section id="home" class="hero" data-background="/images/main_hero.jpg">
+  <div class="hero-content">
+    <p class="hero-subtitle">Together with family and friends</p>
+
+    <h2>We invite you to celebrate with us</h2>
+
+    <h1>
+      <span data-content="wedding-groom"></span> &
+      <span data-content="wedding-bride"></span>
+    </h1>
+
+    <p class="hero-weds">Civil Wedding Ceremony</p>
+    <p class="hero-date" data-content="wedding-date"></p>
+
+    <div class="countdown">
+      <div class="time-box">
+        <span id="days">00</span>
+        <small>Days</small>
+      </div>
+
+      <div class="time-box">
+        <span id="hours">00</span>
+        <small>Hours</small>
+      </div>
+
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <small>Minutes</small>
+      </div>
+
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <small>Seconds</small>
+      </div>
+    </div>
+
+    <!-- Countdown finished -->
+    <div class="countdown-finished hidden">
+      <span class="finished-ring">
+        <img src="assets/icons/ring.svg" alt="ring icon" />
+      </span>
+
+      <div class="finished-divider"></div>
+
+      <div class="finished-text">
+        <span>The Day Has Arrived</span>
+        <h2>Today We Say “I Do”</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Story -->
+<section id="story" class="section">
+  <div class="container">
+    <div class="section-title">
+      <p>Our Journey</p>
+      <h2>Our Story</h2>
+    </div>
+
+    <div class="story-wrapper">
+      <div class="story-image image-frame">
+        <img src="" data-image="images/story.jpg" alt="Couple Photo" />
+      </div>
+
+      <div class="story-text">
+        <h3>
+          <span data-content="wedding-groom"></span> &
+          <span data-content="wedding-bride"></span>
+        </h3>
+
+        <p>
+          What began as a chance meeting became a journey filled with quiet
+          moments, shared dreams, and gentle kindness. Each step carried us
+          closer to the love we celebrate today.
+        </p>
+
+        <p>
+          Together we discovered that love is not only a promise, but a home:
+          one built from laughter, trust, and unwavering support.
+        </p>
+
+        <p>
+          Now we invite you to join us as we begin the most beautiful chapter of
+          our story.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Wedding Day Details -->
+<section id="details" class="section details-section">
+  <div class="container">
+    <div class="section-title">
+      <p>Save The Date</p>
+      <h2>Wedding Day Details</h2>
+    </div>
+
+    <p class="details-intro">
+      We are honored to gather with the people we cherish most. Below are the
+      ceremony and reception details, crafted with love for a day we hope will
+      be timeless and unforgettable.
+    </p>
+
+    <div class="details-grid">
+      <!-- Ceremony -->
+      <div class="details-card">
+        <div class="details-image image-frame">
+          <img
+            src=""
+            data-image="images/ceremony_venue.jpg"
+            alt="Wedding Ceremony Venue"
+            data-content="ceremony-image"
+          />
+
+          <!-- Ceremony QR -->
+          <div class="details-qr">
+            <img src="" alt="Ceremony QR Code" data-content="ceremony-qr" />
+          </div>
+        </div>
+
+        <div class="details-content">
+          <span class="details-label"> Wedding Ceremony </span>
+
+          <h3 data-content="ceremony-venue"></h3>
+
+          <div class="details-meta">
+            <div class="details-item">
+              <strong>Date</strong>
+
+              <span data-content="ceremony-date"></span>
+            </div>
+
+            <div class="details-item">
+              <strong>Time</strong>
+
+              <span data-content="ceremony-time"></span>
+            </div>
+
+            <div class="details-item">
+              <strong>Address</strong>
+
+              <span data-content="ceremony-location"></span>
+            </div>
+          </div>
+
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            data-content="ceremony-map"
+          >
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+
+      <!-- Reception -->
+      <div class="details-card">
+        <div class="details-image image-frame">
+          <img
+            src=""
+            data-image="images/reception_venue.jpg"
+            alt="Wedding Reception Venue"
+            data-content="reception-image"
+          />
+
+          <!-- Reception QR -->
+          <div class="details-qr">
+            <img src="" alt="Reception QR Code" data-content="reception-qr" />
+          </div>
+        </div>
+
+        <div class="details-content">
+          <span class="details-label"> Wedding Reception </span>
+
+          <h3 data-content="reception-venue"></h3>
+
+          <div class="details-meta">
+            <div class="details-item">
+              <strong>Date</strong>
+
+              <span data-content="reception-date"></span>
+            </div>
+
+            <div class="details-item">
+              <strong>Time</strong>
+
+              <span data-content="reception-time"></span>
+            </div>
+
+            <div class="details-item">
+              <strong>Address</strong>
+
+              <span data-content="reception-location"></span>
+            </div>
+          </div>
+
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+            data-content="reception-map"
+          >
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Location -->
+<section id="location" class="location-section">
+  <div class="container">
+    <div class="section-title">
+      <p>Wedding Venue</p>
+      <h2>Location</h2>
+    </div>
+
+    <!-- TOGGLE BUTTONS -->
+    <div class="map-toggle">
+      <button class="map-btn active" data-map="ceremony">Ceremony</button>
+      <button class="map-btn" data-map="reception">Reception</button>
+    </div>
+
+    <div class="map-content">
+      <!-- CEREMONY MAP WRAPPER -->
+      <div id="ceremony-map" class="map-wrapper active-map">
+        <iframe
+          src=""
+          width="100%"
+          height="100%"
+          allowfullscreen
+          data-content="ceremony-map-embed"
+        >
+        </iframe>
+      </div>
+
+      <!-- RECEPTION MAP WRAPPER -->
+      <div id="reception-map" class="map-wrapper">
+        <iframe
+          src=""
+          width="100%"
+          height="100%"
+          allowfullscreen
+          data-content="reception-map-embed"
+        >
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule -->
+<section id="schedule" class="section schedule-section">
+  <div class="container">
+    <div class="section-title">
+      <p>Wedding Day</p>
+      <h2>Event Schedule</h2>
+    </div>
+
+    <div class="timeline" data-content="schedule-container">
+      <!-- Generate Schedule -->
+    </div>
+  </div>
+</section>
+
+<!-- Wedding Gift Guide -->
+<section id="gift" class="section gift-section">
+  <div class="container">
+    <div class="section-title">
+      <p>A Thoughtful Gesture</p>
+      <h2>Wedding Gift Guide</h2>
+    </div>
+
+    <!-- Intro -->
+    <div class="gift-wrapper">
+      <div class="gift-image image-frame">
+        <img
+          src=""
+          data-image="images/gift_guide.jpg"
+          alt="Wedding Gift Guide"
+        />
+      </div>
+
+      <div class="gift-text">
+        <h3>A Gift From the Heart</h3>
+
+        <p>
+          Celebrating this special day with our family and friends is more than
+          enough for us.
+        </p>
+
+        <p>
+          If you would like to bless us with a gift, we have prepared a few
+          suggestions below as we begin this new chapter together.
+        </p>
+
+        <p>
+          Thank you for your love, kindness, and generosity. We are truly
+          grateful to celebrate this milestone with you.
+        </p>
+      </div>
+    </div>
+
+    <!-- Gift Options -->
+    <div class="details-grid" style="margin-top: 70px">
+      <!-- Gift Collection -->
+      <div class="details-card">
+        <div class="details-content">
+          <span class="details-label">Gift Collection</span>
+
+          <h3>Our Wishlist</h3>
+
+          <p>
+            A curated selection of home essentials and meaningful items that
+            will help us build and settle into our home together.
+          </p>
+
+          <p>
+            These are practical gifts chosen to support our everyday life as we
+            begin this new chapter as a family.
+          </p>
+        </div>
+      </div>
+
+      <!-- Monetary Gift -->
+      <div class="details-card">
+        <div class="details-content">
+          <span class="details-label">Monetary Gift</span>
+
+          <h3>A Blessing for Our Future</h3>
+
+          <p>
+            A monetary gift is warmly appreciated and will support us as we
+            continue building our life together as a family.
+          </p>
+
+          <p>
+            It will help us with our shared goals and future responsibilities as
+            we grow together.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Gift -->
+      <div class="details-card">
+        <div class="details-image image-frame gift-qr">
+          <img src="" data-image="images/gift_qr.jpg" alt="Quick Gift QR Code" />
+        </div>
+
+        <div class="details-content">
+          <span class="details-label">Quick Gift</span>
+          <h3>Scan to Send</h3>
+          <p>
+            You may also send your gift conveniently by scanning the QR code
+            using your preferred payment app.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section faq-section">
+  <div class="container">
+    <div class="section-title">
+      <p>Helpful Information</p>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq-grid" data-content="faq-container">
+      <!-- Generate Faq -->
+    </div>
+
+    <div class="reminder-box">
+      <div class="reminder-image image-frame">
+        <img src="" data-image="images/reminder.jpg" alt="Reminder" />
+      </div>
+
+      <div class="reminder-content">
+        <span class="reminder-label"> A Gentle Reminder </span>
+
+        <h3>Your presence is our greatest gift</h3>
+
+        <p>
+          We are grateful for every smile, every warm wish, and the memories we
+          will create together.
+        </p>
+
+        <p>
+          Please enjoy the day with us as we celebrate a love built to last.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RSVP -->
+<section id="rsvp" class="section rsvp-section">
+  <div class="container">
+    <div class="section-title">
+      <p>Join Our Celebration</p>
+      <h2>RSVP</h2>
+    </div>
+
+    <div class="rsvp-note">
+      <h3>Your presence completes our celebration</h3>
+
+      <p>
+        We are so grateful to share this day with the people who bring meaning
+        and joy to our lives.
+      </p>
+
+      <p>
+        Please let us know if you will join us by completing the RSVP form
+        below.
+      </p>
+
+      <p class="rsvp-deadline">
+        Kindly respond on or before
+        <span data-content="rsvp-deadline"></span>
+      </p>
+    </div>
+
+    <div class="rsvp-box iframe-limit">
+      <iframe
+        src=""
+        width="100%"
+        height="100%"
+        frameborder="0"
+        tabindex="-1"
+        data-content="rsvp-form"
+      >
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Entourage -->
+<section id="entourage" class="section entourage-section">
+  <div class="container">
+    <div class="section-title">
+      <p>With Love & Gratitude</p>
+      <h2>The Entourage</h2>
+    </div>
+
+    <!-- Ceremony Official -->
+    <div id="ceremonyOfficial" class="entourage-group">
+      <div class="group-heading">
+        <span>Ceremony Official</span>
+      </div>
+
+      <div class="officiating-grid">
+        <div class="entourage-card">
+          <small>Wedding Officiant</small>
+          <h3 data-content="ceremony-official"></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Couple -->
+    <div id="weddingCouple" class="entourage-group">
+      <div class="group-heading">
+        <span>The Couple</span>
+      </div>
+
+      <div class="couple-grid">
+        <div class="featured-card">
+          <small>The Groom</small>
+          <h3 data-content="wedding-groom"></h3>
+        </div>
+
+        <div class="featured-card">
+          <small>The Bride</small>
+          <h3 data-content="wedding-bride"></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Couple's Family-->
+    <div id="coupleFamily" class="entourage-group">
+      <div class="group-heading">
+        <span>Couple's Family</span>
+      </div>
+
+      <div class="family-grid">
+        <div class="entourage-card">
+          <small>Groom’s Parents</small>
+          <h3 data-content="groom-father"></h3>
+          <h3 data-content="groom-mother"></h3>
+        </div>
+
+        <div class="entourage-card">
+          <small>Bride’s Parents</small>
+          <h3 data-content="bride-father"></h3>
+          <h3 data-content="bride-mother"></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Principal Sponsors -->
+    <div id="principalSponsor" class="entourage-group">
+      <div class="group-heading">
+        <span>Principal Sponsors</span>
+      </div>
+
+      <div class="sponsors-list" data-content="sponsors-list">
+        <!-- Generate Sponsor List -->
+      </div>
+    </div>
+
+    <!-- Wedding Party -->
+    <div id="weddingParty" class="entourage-group">
+      <div class="group-heading">
+        <span>The Wedding Party</span>
+      </div>
+
+      <div class="party-grid">
+        <div class="party-column">
+          <div class="party-highlight">
+            <small>Best Man</small>
+            <h3 data-content="best-man-main"></h3>
+          </div>
+
+          <div class="party-list" data-content="best-man-attendant">
+            <!-- Generate Groomsman -->
+          </div>
+        </div>
+
+        <div class="party-column">
+          <div class="party-highlight">
+            <small>Maid of Honor</small>
+            <h3 data-content="maid-of-honor-main"></h3>
+          </div>
+
+          <div class="party-list" data-content="maid-of-honor-attendant">
+            <!-- Generate Bridesmaid -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ceremony Sponsors -->
+    <div id="ceremonySponsor" class="entourage-group">
+      <div class="group-heading">
+        <span>Ceremony Sponsors</span>
+      </div>
+
+      <div class="ceremony-grid" data-content="ceremony-sponsors">
+        <!-- Generate Ceremony Sponsors  -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Spotify / Wedding Playlist -->
+<section id="spotify" class="section spotify-section">
+  <div class="container">
+    <div class="section-title">
+      <p>Our Soundtrack</p>
+      <h2>Wedding Playlist</h2>
+    </div>
+
+    <p class="spotify-intro">
+      This playlist is our soundtrack: the songs that have shaped our story and
+      will carry us into the next chapter. Press play and celebrate each moment
+      with us.
+    </p>
+
+    <div class="spotify-card">
+      <!-- LEFT SIDE INFO -->
+      <div class="spotify-info">
+        <h3>
+          <span data-content="wedding-groom"></span> &
+          <span data-content="wedding-bride"></span>
+        </h3>
+
+        <span>Official Wedding Playlist</span>
+
+        <p>
+          A curated selection of songs that have marked our journey together.
+          Listen now, save it for the celebration, and carry our wedding music
+          with you long after the day ends.
+        </p>
+
+        <a
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+          class="spotify-btn"
+          data-content="spotify-playlist-link"
+        >
+          Open in Spotify
+        </a>
+      </div>
+
+      <!-- RIGHT SIDE EMBED -->
+      <div class="spotify-embed iframe-limit">
+        <iframe
+          src=""
+          width="100%"
+          height="100%"
+          allow="encrypted-media; fullscreen"
+          tabindex="-1"
+          data-content="spotify-playlist"
+        >
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="section gallery-section">
+  <div class="container">
+    <div class="section-title">
+      <p>Memories</p>
+      <h2>Photo Gallery</h2>
+    </div>
+
+    <div class="gallery" data-content="gallery-container">
+      <!-- Generate Gallery -->
+    </div>
+
+    <!-- Social Share -->
+    <div class="gallery-social">
+      <div class="gallery-social-image image-frame">
+        <img
+          src=""
+          data-image="images/social_hashtag.jpg"
+          alt="Couple Social Photo"
+        />
+      </div>
+
+      <div class="gallery-social-content">
+        <span class="gallery-tag"> Share The Celebration </span>
+
+        <h3>Capture the moments with us</h3>
+
+        <p>
+          Every smile, candid laugh, and cherished memory becomes part of the
+          story we will carry forward together.
+        </p>
+
+        <p>
+          Share your favorite wedding day photos and videos using our official
+          hashtag so we can celebrate them with you.
+        </p>
+
+        <a
+          class="hashtag"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          data-content="social-facebook"
+          ><span data-content="official-hashtag">#</span></a
+        >
+
+        <div class="social-icons">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            data-content="social-instagram"
+          >
+            <img src="assets/icons/instagram.svg" alt="instagram icon" />
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            data-content="social-facebook"
+          >
+            <img src="assets/icons/facebook.svg" alt="facebook icon" />
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X"
+            data-content="social-x"
+          >
+            <img src="assets/icons/x-twitter.svg" alt="xsocial icon" />
+          </a>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+            data-content="social-tiktok"
+          >
+            <img src="assets/icons/tiktok.svg" alt="tiktok icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Floating RSVP -->
+<a href="#rsvp" class="floating-rsvp"> RSVP </a>

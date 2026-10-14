@@ -1,0 +1,44 @@
+
+/* =========================
+   Inter (Body - 400 only)
+   ========================= */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(content/inter1.woff2) format("woff2");
+}
+
+/* =========================
+   Playfair Display (Headings 400)
+   ========================= */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(content/playfairdisplay4.woff2) format("woff2");
+}
+
+/* =========================
+   Playfair Display (Logo 700)
+   ========================= */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(content/playfairdisplay4.woff2) format("woff2");
+}
+
+/* =========================
+   Great Vibes (Signature 400)
+   ========================= */
+@font-face {
+  font-family: "Great Vibes";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(content/greatvibes6.woff2) format("woff2");
+}

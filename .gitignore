@@ -1,0 +1,6 @@
+#ignore all data files
+data/*
+images/old/*
+
+#Allow json file
+!data/*.json
