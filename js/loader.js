@@ -27,8 +27,11 @@ const loadAssets = ({ rel, href, type }) => {
         link.href = href;
         if(type) link.type = type;
 
+        link.onload = resolve;
+        link.onerror = reject;
+
         document.head.appendChild(link);
-        resolve();
+        if(rel?.toLowerCase() != "stylesheet") resolve();
     });
 }
 
