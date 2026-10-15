@@ -1530,6 +1530,7 @@
      var(--bg-image);
    background-size: cover;
    background-position: center;
+    background-attachment: fixed;
  }
 
  .footer-signature {
