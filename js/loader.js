@@ -27,11 +27,8 @@ const loadAssets = ({ rel, href, type }) => {
         link.href = href;
         if(type) link.type = type;
 
-        link.onload = resolve;
-        link.onerror = reject;
-
         document.head.appendChild(link);
-        if(rel?.toLowerCase() != "stylesheet") resolve();
+        resolve();
     });
 }
 
@@ -42,7 +39,7 @@ const loadContentHTML = async (contentPath) => {
 }
 
 const loadWebContent = async () => {
-    loadAssets({
+    await loadAssets({
         rel: "icon",
         href: `/assets/favicon.ico?v=${ICON_VERSION}&${CONTENT_BUILD_VERSION}`,
         type: "image/x-icon"
