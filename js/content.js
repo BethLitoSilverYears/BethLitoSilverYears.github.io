@@ -306,5 +306,5 @@ const initContent = async () => {
 if(document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initContent);
 } else {
-  initContent(); // Runs immediately ifDOMContentLoaded already happened
+  initContent(); // Runs immediately if DOMContentLoaded already happened
 }
