@@ -1,10 +1,10 @@
 {
-  "bride": "Blank",
-  "groom": "Blank",
+  "bride": "Lilibeth",
+  "groom": "Joselito",
   "officiant": "Blank",
-  "hashtag": "#Blank",
-  "weddingDate": "07/04/2026 14:00",
-  "rsvpDeadline": "07/03/2026",
+  "hashtag": "#BethAndLitoSilverLove",
+  "weddingDate": "11/28/2026 15:00",
+  "rsvpDeadline": "11/26/2026",
 
   "spotifyUrl": "https://open.spotify.com/playlist/37i9dQZF1DX3Z99viCDp7Q",
   "rsvpFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfI0OQV1gzJa34i5TdMkvEgcTVchAdRqGFoqgona8wLXZZfLQ/viewform?usp=header",
@@ -12,47 +12,47 @@
   "family": {
     "bride": {
       "father": "Blank",
-      "mother": "Blank"
+      "mother": "Rosalina Limbag"
     },
     "groom": {
       "father": "Blank",
-      "mother": "Blank"
+      "mother": "Erlinda Domdom"
     }
   },
 
   "venue": [
     {
       "type": "ceremony",
-      "name": "Palmera Garden Hotel",
-      "date": "July 04, 2026",
-      "time": "2:00 PM",
-      "address": "Aparente Street corner Sebastian, General Santos City",
-      "map": "https://www.google.com/maps?q=6.1304633442595104,125.17132262464766"
+      "name": "Our Lady of Fatima Parish",
+      "date": "November 28, 2026",
+      "time": "3:00 PM",
+      "address": "Purok 12, NASA Village, Barangay Fatima, General Santos City",
+      "map": "https://www.google.com/maps?t=k&q=6.065339064864597, 125.1121970746673"
     },
     {
       "type": "reception",
-      "name": "Palmera Garden Hotel",
-      "date": "July 04, 2026",
-      "time": "2:00 PM",
-      "address": "Aparente Street corner Sebastian, General Santos City",
-      "map": "https://www.google.com/maps?q=6.1304633442595104,125.17132262464766"
+      "name": "Momentous Event Center",
+      "date": "November 28, 2026",
+      "time": "5:00 PM",
+      "address": "Purok Tomasa, Barangay Calumpang, General Santos City",
+      "map": "https://www.google.com/maps?t=k&q=6.084386882853628, 125.12285810049588"
     }
   ],
 
   "schedule": [
     {
       "title": "Wedding Ceremony",
-      "time": "2:00 PM",
+      "time": "3:00 PM",
       "details": "Witness our heartfelt exchange of vows as we begin our forever together."
     },
     {
       "title": "Photo Session",
-      "time": "2:30 PM",
+      "time": "4:00 PM",
       "details": "The newlyweds, together with their families and entourage, will capture cherished moments through commemorative photographs before the celebration continues."
     },
     {
       "title": "Wedding Dinner",
-      "time": "3:00 PM",
+      "time": "5:00 PM",
       "details": "Join us for dinner, drinks, dancing, and a joyful celebration of our new beginning."
     }
   ],
@@ -90,27 +90,87 @@
 
   "sponsors": {
     "principal": [
-      "Blank"
+      "Tiya Amay",
+      "Tiyo Tony",
+      "Maridel Cantiveros",
+      "Famini Ronnie / w Wife",
+      "Arcenio Oftana",
+      "Elsie Oftana",
+      "Helen Monteclaro",
+      "Francisco Dumayhag",
+      "Vicenta Dumayhag"
     ],
 
     "ceremony": [
-  
+      {
+        "role": "Candle",
+        "people" : [
+          "Lanie Rose Jacobo",
+          "Jay-Ar Jacobo"
+        ]
+      },
+      {
+        "role": "Cord",
+        "people" : [
+          "Tina Ubay",
+          "Joven Limbag"
+        ]
+      },
+      {
+        "role": "Veil",
+        "people" : [
+          "Casiano Arcala",
+          "Glycerin Arcala"
+        ]
+      },
+      {
+        "role": "Ring Bearer",
+        "people" : [
+          "TJ Limbag"
+        ]
+      },
+      {
+        "role": "Flower Girl",
+        "people" : [
+          "Jonamie Gicale",
+          "Chriziel Jane Siarot",
+          "Jeziel Mae Jatico",
+          "Harly Jane De Asis",
+          "Carla  Jane Daligdig"
+        ]
+      },
+      {
+        "role": "Coin Bearer",
+        "people" : [
+          
+        ]
+      }
     ]
   },
 
   "party": [
     {
       "type": "best-man",
-      "main": "",
+      "main": "Louie Jay Gicale",
       "members": [
-   
+        "Albin Ferolino",
+        "Jimmy Lloren",
+        "Jomar Moreno",
+        "Eduardo Avila",
+        "Vicente Jatico",
+        "Joel Respicio"
       ]
     },
     {
       "type": "maid-of-honor",
-      "main": "",
+      "main": "Beverly Jane Gicale",
       "members": [
-
+        "Jinelyn Panilagao",
+        "Grace Ferolin",
+        "Elyn Retuyan",
+        "Mary Jane Avila",
+        "Flordeliza Jatico",
+        "Claire Soliva"
       ]
     }
   ]
