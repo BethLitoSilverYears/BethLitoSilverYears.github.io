@@ -919,7 +919,7 @@
  .map-btn {
    padding: 10px 22px;
    border-radius: 50px;
-   border: 1px solid rgba(22, 148, 207, 0.25);
+   border: 1px solid rgba(192, 128, 129, 0.4);
    background: white;
    color: var(--rose-deep);
    font-weight: 600;
