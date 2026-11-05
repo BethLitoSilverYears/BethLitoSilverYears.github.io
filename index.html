@@ -21,13 +21,16 @@
 
   </head>
 
-  <body style="display: none;">
+  <body>
+    <div id="mainContent" style="display: none;"></div>
+    <div id="loadingContent"></div>
 
-      <!-- Load website content/scripts -->
-      <script type="text/javascript">
-        const contentScript = document.createElement('script');
-        contentScript.src = `js/min/loader.min.js?v=${Date.now()}`;
-        document.head.appendChild(contentScript);
-      </script>
+    <!-- Load website content/scripts -->
+    <script type="text/javascript">
+      const contentScript = document.createElement('script');
+      contentScript.src = `js/min/loader.min.js?v=${Date.now()}`;
+      document.head.appendChild(contentScript);
+    </script>
+
   </body>
 </html>

@@ -13,6 +13,7 @@ const FONT_VERSION = "1.0.0";
 const STYLE_VERSION = "1.0.0";
 
 //HTML Fragments
+const HTML_LOADING_VERSION = "1.0.0";
 const HTML_HEADER_VERSION = "1.0.0";
 const HTML_MAIN_VERSION = "1.0.0";
 const HTML_FOOTER_VERSION = "1.0.0";
@@ -35,10 +36,10 @@ const loadAssets = ({ rel, href, type }) => {
     });
 }
 
-const loadContentHTML = async (contentPath) => {
+const loadContentHTML = async (id, contentPath) => {
     const response = await fetch(contentPath);
     const html = await response.text();
-    document.body.insertAdjacentHTML("beforeend", html);
+    document.getElementById(id).insertAdjacentHTML("beforeend", html);
 }
 
 const loadWebContent = async () => {
@@ -58,9 +59,10 @@ const loadWebContent = async () => {
         href: `css/style.min.css?v=${STYLE_VERSION}&${CONTENT_BUILD_VERSION}`
     });
 
-    await loadContentHTML(`content/header.html?v=${HTML_HEADER_VERSION}&${CONTENT_BUILD_VERSION}`);
-    await loadContentHTML(`content/main_content.html?v=${HTML_MAIN_VERSION}&${CONTENT_BUILD_VERSION}`);
-    await loadContentHTML(`content/footer.html?v=${HTML_FOOTER_VERSION}&${CONTENT_BUILD_VERSION}`);
+    await loadContentHTML('mainContent', `content/header.html?v=${HTML_HEADER_VERSION}&${CONTENT_BUILD_VERSION}`);
+    await loadContentHTML('mainContent', `content/main_content.html?v=${HTML_MAIN_VERSION}&${CONTENT_BUILD_VERSION}`);
+    await loadContentHTML('mainContent', `content/footer.html?v=${HTML_FOOTER_VERSION}&${CONTENT_BUILD_VERSION}`);
+      await loadContentHTML('loadingContent', `content/loading.html?v=${HTML_LOADING_VERSION}&${CONTENT_BUILD_VERSION}`);
 
     console.log("Website content loaded");
 }

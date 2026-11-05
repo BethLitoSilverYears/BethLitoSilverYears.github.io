@@ -298,7 +298,16 @@ const initContent = async () => {
   setSocialHashtag(weddingData.hashtag);
   setSpotifyPlaylist(weddingData.spotifyUrl);
 
-  document.body.style.display = "block";
+  document.getElementById('envelope').classList.add("open");
+  setTimeout(() => {
+      loader.classList.add('fade-out');
+      
+      setTimeout(() => {
+        document.getElementById("loadingContent").style.display = "none";
+        document.getElementById("mainContent").style.display = "block";
+      }, 800);
+  }, 1500); // Adjust timing based on preference
+
   initAnimation();
 };
 

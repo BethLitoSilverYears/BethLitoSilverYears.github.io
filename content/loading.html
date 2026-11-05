@@ -1,0 +1,37 @@
+<!-- Loading Screen Container -->
+<div class="loader-container" id="loader">
+    <div class="instruction">Loading Wedding Invitation...</div>
+    
+    <div class="envelope-wrapper" id="envelope">
+        <!-- Hidden Card Inside -->
+        <div class="invite-card">
+            <p>The Wedding of</p>
+            <h2>Joselito & Lilibeth</h2>
+            <p style="margin-top: 15px; font-size: 0.65rem;">November 28, 2026</p>
+        </div>
+        
+        <!-- Envelope Flap & Pocket -->
+        <div class="envelope-flap"></div>
+        <div class="envelope-pocket"></div>
+        
+        <!-- Gold Wax Seal -->
+        <div class="wax-seal">
+            <span>J&L</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    const envelope = document.getElementById('envelope');
+    const loader = document.getElementById('loader');
+
+    envelope.addEventListener('click', () => {
+        // Trigger the opening animation
+        envelope.classList.add('open');
+
+        // Fade out the entire loading screen after the card slides out
+        setTimeout(() => {
+            loader.classList.add('fade-out');
+        }, 1200); // Adjust timing based on preference
+    });
+</script>
