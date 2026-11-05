@@ -11,11 +11,11 @@
 
   "family": {
     "bride": {
-      "father": "Blank",
+      "father": "Benny Limbag",
       "mother": "Rosalina Limbag"
     },
     "groom": {
-      "father": "Blank",
+      "father": "",
       "mother": "Erlinda Domdom"
     }
   },
@@ -82,30 +82,30 @@
 
   "sponsors": {
     "principal": [
-      "Tiya Amay",
-      "Tiyo Tony",
+      "Amie Recahuerta",
+      "Tony Recahuerta",
       "Maridel Cantiveros",
-      "Famini Ronnie / w Wife",
-      "Arcenio Oftana",
-      "Elsie Oftana",
+      "Vicenta Dumayhag",
+      "Frank Dumayhag",
       "Helen Monteclaro",
-      "Francisco Dumayhag",
-      "Vicenta Dumayhag"
+      "Abnero Melet",
+      "Elsie Oftana",
+      "Arcenio Oftana"
     ],
 
     "ceremony": [
       {
         "role": "Candle",
         "people" : [
-          "Lanie Rose Jacobo",
-          "Jay-Ar Jacobo"
+          "Ritchelle Avila",
+          "Chester Avila"
         ]
       },
       {
         "role": "Cord",
         "people" : [
-          "Tina Ubay",
-          "Joven Limbag"
+          "Beth Limbag",
+          "John Limbag"
         ]
       },
       {
@@ -128,7 +128,9 @@
           "Chriziel Jane Siarot",
           "Jeziel Mae Jatico",
           "Harly Jane De Asis",
-          "Carla  Jane Daligdig"
+          "Carla Jane Daligdig",
+          "Monica Dumayhag",
+          "Mariz Shayne Dumayhag"
         ]
       },
       {
@@ -149,6 +151,7 @@
         "Jimmy Lloren",
         "Jomar Moreno",
         "Eduardo Avila",
+        "Elmer Agbon",
         "Vicente Jatico",
         "Joel Respicio"
       ]
@@ -161,6 +164,7 @@
         "Grace Ferolin",
         "Elyn Retuyan",
         "Mary Jane Avila",
+        "Jowi Agbon",
         "Flordeliza Jatico",
         "Claire Soliva"
       ]
