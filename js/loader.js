@@ -1,5 +1,5 @@
-const CONTENT_BUILD_VERSION = "10.14.26" //reache all
-const SCRIPT_BUILD_VERSION = "10.14.26" //reache all
+const CONTENT_BUILD_VERSION = "11.05.26" //reache all
+const SCRIPT_BUILD_VERSION = "11.05.26" //reache all
 
 //Scripts version
 const ANIMATION_VERSION = "1.0.0";
