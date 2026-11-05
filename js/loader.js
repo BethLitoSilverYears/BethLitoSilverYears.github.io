@@ -5,7 +5,7 @@ const SCRIPT_BUILD_VERSION = "11.03.26" //reache all
 const ANIMATION_VERSION = "1.0.0";
 const SCRIPT_VERSION = "1.0.0";
 const LISTENER_VERSION = "1.0.0";
-const DATA_VERSION = "1.0.0";
+const DATA_VERSION = "1.0.1";
 
 //Assets
 const ICON_VERSION = "1.0.0";
