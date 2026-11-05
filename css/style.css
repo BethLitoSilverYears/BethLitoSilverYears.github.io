@@ -997,7 +997,7 @@
    display: flex;
    gap: 30px;
    padding: 35px 0;
-   border-bottom: 1px solid rgba(22, 148, 207, 0.1);
+   border-bottom: 1px solid rgba(192, 128, 129, 0.15);
  }
 
  .timeline-time {
