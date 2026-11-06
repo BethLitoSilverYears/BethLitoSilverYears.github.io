@@ -44,6 +44,14 @@ const loadContentHTML = async (id, contentPath) => {
 
 const loadWebContent = async () => {
     await loadAssets({
+        rel: "stylesheet",
+        href: `css/style.min.css?v=${STYLE_VERSION}&${CONTENT_BUILD_VERSION}`
+    });
+
+    await loadContentHTML('loadingContent', `content/loading.html?v=${HTML_LOADING_VERSION}&${CONTENT_BUILD_VERSION}`);
+    
+    
+    await loadAssets({
         rel: "icon",
         href: `/assets/favicon.ico?v=${ICON_VERSION}&${CONTENT_BUILD_VERSION}`,
         type: "image/x-icon"
@@ -54,15 +62,9 @@ const loadWebContent = async () => {
         href: `assets/fonts/fonts.min.css?v=${FONT_VERSION}&${CONTENT_BUILD_VERSION}`
     });
 
-    await loadAssets({
-        rel: "stylesheet",
-        href: `css/style.min.css?v=${STYLE_VERSION}&${CONTENT_BUILD_VERSION}`
-    });
-
     await loadContentHTML('mainContent', `content/header.html?v=${HTML_HEADER_VERSION}&${CONTENT_BUILD_VERSION}`);
     await loadContentHTML('mainContent', `content/main_content.html?v=${HTML_MAIN_VERSION}&${CONTENT_BUILD_VERSION}`);
     await loadContentHTML('mainContent', `content/footer.html?v=${HTML_FOOTER_VERSION}&${CONTENT_BUILD_VERSION}`);
-      await loadContentHTML('loadingContent', `content/loading.html?v=${HTML_LOADING_VERSION}&${CONTENT_BUILD_VERSION}`);
 
     console.log("Website content loaded");
 }
