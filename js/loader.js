@@ -1,11 +1,11 @@
-const CONTENT_BUILD_VERSION = "11.04.26" //reache all
-const SCRIPT_BUILD_VERSION = "11.04.26" //reache all
+const CONTENT_BUILD_VERSION = "11.05.26" //reache all
+const SCRIPT_BUILD_VERSION = "11.05.26" //reache all
 
 //Scripts version
 const ANIMATION_VERSION = "1.0.0";
 const SCRIPT_VERSION = "1.0.0";
 const LISTENER_VERSION = "1.0.0";
-const DATA_VERSION = "1.0.2";
+const DATA_VERSION = "1.0.3";
 
 //Assets
 const ICON_VERSION = "1.0.0";
