@@ -25,7 +25,7 @@
     --image-frame: rgba(192, 128, 129, 0.35);
     --image-fallback: linear-gradient(135deg, rgba(217, 199, 203, 0.4), rgba(192, 128, 129, 0.2));
 
-    --box-shadow: rgba(84, 40, 42, 0.15);
+    --box-border: rgba(192, 128, 129, 0.4);
     --highlight: rgba(255, 255, 255, 0.35);
     --shadow: 0 16px 40px rgba(84, 40, 42, 0.15);
     --radius: 16px;
@@ -603,7 +603,7 @@
 
  .btn:hover {
    transform: translateY(-4px);
-   box-shadow: 0 10px 25px var(--box-shadow);
+   box-shadow: 0 10px 25px var(--shadow);
  }
 
  @media (max-width: 1070px) {
@@ -919,7 +919,7 @@
  .map-btn {
    padding: 10px 22px;
    border-radius: 50px;
-   border: 1px solid rgba(192, 128, 129, 0.4);
+   border: 1px solid var(--box-border);
    background: white;
    color: var(--rose-deep);
    font-weight: 600;
@@ -1357,7 +1357,7 @@
    padding: 40px;
    border-radius: 28px;
    background: rgba(255, 255, 255, 0.85);
-   border: 1px solid rgba(22, 148, 207, 0.12);
+   border: 1px solid var(--box-border);
    box-shadow: var(--shadow);
    backdrop-filter: blur(10px);
    transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1365,7 +1365,7 @@
 
  .spotify-card:hover {
    transform: translateY(-6px) !important;
-   box-shadow: 0 18px 45px rgba(10, 98, 143, 0.18);
+   box-shadow: 0 18px 45px var(--shadow);
  }
 
  .spotify-info h3,
@@ -1405,7 +1405,7 @@
 
  .spotify-btn:hover {
    transform: translateY(-3px) !important;
-   box-shadow: 0 12px 30px rgba(10, 98, 143, 0.25);
+   box-shadow: 0 12px 30px var(--shadow);
  }
 
  .spotify-embed {
@@ -1426,7 +1426,7 @@
  }
 
  .spotify-embed iframe:hover {
-   box-shadow: 0 18px 40px rgba(10, 98, 143, 0.25);
+   box-shadow: 0 18px 40px var(--shadow);
  }
 
  @media (max-width: 991.98px) {
@@ -1550,7 +1550,6 @@
    border-radius: var(--radius);
    text-align: center;
    background: rgba(255, 255, 255, 0.85);
-   border: 1px solid rgba(22, 148, 207, 0.08);
    box-shadow: var(--shadow);
  }
 
@@ -1684,7 +1683,7 @@
    color: var(--pure-white);
    text-decoration: none;
    font-weight: 700;
-   box-shadow: 0 10px 30px var(--box-shadow);
+   box-shadow: 0 10px 30px var(--shadow);
  }
 
  /* FOOTER */
