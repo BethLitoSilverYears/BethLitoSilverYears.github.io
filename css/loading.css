@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
     z-index: 9999;
+    visibility: visible;
+    opacity: 1;
     transition: opacity 1s ease, visibility 1s ease;
   }
 
@@ -71,6 +73,8 @@
     background: #ded7cb;
     border-radius: 0 0 10px 10px;
     clip-path: polygon(0 40%, 50% 70%, 100% 40%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 40%, 50% 70%, 100% 40%, 100% 100%, 0 100%);
+    transform: translateZ(0);
     z-index: 3;
   }
 
