@@ -33,6 +33,10 @@
         "cmd": "cleancss -o \"${fileDirname}\\style.min.css\" \"${file}\""
       },
       {
+        "match": "loading\\.css$",
+        "cmd": "cleancss -o \"${fileDirname}\\loading.min.css\" \"${file}\""
+      },
+      {
         "match": "fonts\\.css$",
         "cmd": "cleancss -o \"${fileDirname}\\fonts.min.css\" \"${file}\""
       }

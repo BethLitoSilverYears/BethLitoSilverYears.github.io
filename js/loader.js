@@ -45,12 +45,17 @@ const loadContentHTML = async (id, contentPath) => {
 const loadWebContent = async () => {
     await loadAssets({
         rel: "stylesheet",
-        href: `css/style.min.css?v=${STYLE_VERSION}&${CONTENT_BUILD_VERSION}`
+        href: `css/loading.min.css?v=${STYLE_VERSION}&${CONTENT_BUILD_VERSION}`
     });
 
     await loadContentHTML('loadingContent', `content/loading.html?v=${HTML_LOADING_VERSION}&${CONTENT_BUILD_VERSION}`);
     
-    
+
+    await loadAssets({
+        rel: "stylesheet",
+        href: `css/style.min.css?v=${STYLE_VERSION}&${CONTENT_BUILD_VERSION}`
+    });
+
     await loadAssets({
         rel: "icon",
         href: `/assets/favicon.ico?v=${ICON_VERSION}&${CONTENT_BUILD_VERSION}`,
