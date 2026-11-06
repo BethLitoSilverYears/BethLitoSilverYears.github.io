@@ -298,9 +298,9 @@ const initContent = async () => {
   setSocialHashtag(weddingData.hashtag);
   setSpotifyPlaylist(weddingData.spotifyUrl);
 
-  document.getElementById('envelope').classList.add("open");
+  document.getElementById("envelope").classList.add("open");
   setTimeout(() => {
-      loader.classList.add('fade-out');
+      loader.classList.add("fade-out");
       
       setTimeout(() => {
         document.getElementById("loadingContent").style.display = "none";
