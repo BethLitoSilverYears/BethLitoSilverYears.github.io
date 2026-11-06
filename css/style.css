@@ -38,7 +38,7 @@
     --cursor-hover: url(/assets/cursor/cursor_hover.png), pointer;
   }
 
- /* Cursor*/
+ /* CURSOR */
  html,
  body {
    cursor: var(--cursor-default) !important;
@@ -91,7 +91,7 @@
    display: block;
  }
 
- /* Loading Invitation */
+ /* LOADING INVITATION */
   .loader-container {
     position: fixed;
     top: 0;
