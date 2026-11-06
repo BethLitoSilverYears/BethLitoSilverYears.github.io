@@ -20,18 +20,3 @@
         </div>
     </div>
 </div>
-
-<script>
-    const envelope = document.getElementById('envelope');
-    const loader = document.getElementById('loader');
-
-    envelope.addEventListener('click', () => {
-        // Trigger the opening animation
-        envelope.classList.add('open');
-
-        // Fade out the entire loading screen after the card slides out
-        setTimeout(() => {
-            loader.classList.add('fade-out');
-        }, 1200); // Adjust timing based on preference
-    });
-</script>
