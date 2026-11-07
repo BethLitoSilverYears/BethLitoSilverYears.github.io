@@ -634,7 +634,7 @@
 
  @media (max-width: 1200px) {
    .hero {
-     background-position: center;
+     background-position: center calc(50% + 50px);
    }
  }
 
