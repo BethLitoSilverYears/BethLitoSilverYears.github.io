@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cart/
+Disallow: /checkout/
+
+# --- Meta / Facebook / Messenger / Instagram ---
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# --- X (formerly Twitter) ---
+User-agent: Twitterbot
+Allow: /
