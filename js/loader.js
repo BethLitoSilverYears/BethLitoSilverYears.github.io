@@ -10,7 +10,7 @@ const LISTENER_VERSION = "1.0.0";
 //Assets
 const ICON_VERSION = "1.0.0";
 const FONT_VERSION = "1.0.0";
-const STYLE_VERSION = "1.0.0";
+const STYLE_VERSION = "1.0.1";
 
 //HTML Fragments
 const HTML_LOADING_VERSION = "1.0.0";

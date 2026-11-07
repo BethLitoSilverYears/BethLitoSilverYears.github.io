@@ -436,7 +436,7 @@
    background: var(--section-background-overlay),
      var(--bg-image);
    background-size: cover;
-   background-position: center calc(50% + 50px);
+   background-position: center calc(50% + 110px);
    background-attachment: fixed;
  }
 
@@ -696,7 +696,7 @@
 
  @media (max-width: 479.98px) {
    .hero {
-     background-position: center, calc(50% - 140px) center;
+     background-position: center calc(50% + 50px);
    }
  }
 
