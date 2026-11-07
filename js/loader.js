@@ -1,11 +1,11 @@
 const CONTENT_BUILD_VERSION = "11.07.26" //reache all
 const SCRIPT_BUILD_VERSION = "11.07.26" //reache all
+const DATA_VERSION = "1.0.6";
 
 //Scripts version
 const ANIMATION_VERSION = "1.0.0";
 const SCRIPT_VERSION = "1.0.0";
 const LISTENER_VERSION = "1.0.0";
-const DATA_VERSION = "1.0.6";
 
 //Assets
 const ICON_VERSION = "1.0.0";
