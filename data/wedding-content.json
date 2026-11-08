@@ -3,7 +3,7 @@
   "groom": "Joselito",
   "officiant": "Fr. Noe Pedrajas",
   "hashtag": "#BethAndLitoSilverLove",
-  "weddingDate": "11/28/2026 15:00",
+  "weddingDate": "11/28/2026 18:00",
   "rsvpDeadline": "11/23/2026",
 
   "spotifyUrl": "https://open.spotify.com/playlist/37i9dQZF1DX3Z99viCDp7Q",
@@ -25,7 +25,7 @@
       "type": "ceremony",
       "name": "Our Lady of Fatima Parish",
       "date": "November 28, 2026",
-      "time": "3:00 PM",
+      "time": "6:00 PM",
       "address": "Purok 12, NASA Village, Barangay Fatima, General Santos City",
       "map": "https://www.google.com/maps?t=k&q=6.065339064864597, 125.1121970746673"
     },
@@ -33,7 +33,7 @@
       "type": "reception",
       "name": "Momentous Event Center",
       "date": "November 28, 2026",
-      "time": "5:00 PM",
+      "time": "7:00 PM",
       "address": "Purok Tomasa, Barangay Calumpang, General Santos City",
       "map": "https://www.google.com/maps?t=k&q=6.084386882853628, 125.12285810049588"
     }
@@ -42,17 +42,17 @@
   "schedule": [
     {
       "title": "Wedding Ceremony",
-      "time": "3:00 PM",
+      "time": "6:00 PM",
       "details": "Witness our heartfelt exchange of vows as we begin our forever together."
     },
     {
       "title": "Photo Session",
-      "time": "4:00 PM",
+      "time": "7:00 PM",
       "details": "The newlyweds, together with their families and entourage, will capture cherished moments through commemorative photographs before the celebration continues."
     },
     {
       "title": "Wedding Dinner",
-      "time": "5:00 PM",
+      "time": "7:30 PM",
       "details": "Join us for dinner, drinks, dancing, and a joyful celebration of our new beginning."
     }
   ],
